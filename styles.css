@@ -1,0 +1,139 @@
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(0, 0%, 42%);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: var(--yellow);
+  font-family: "Figtree", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 384px;
+  background-color: var(--white);
+  border-radius: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  box-shadow: 8px 8px 0 0 #000000;
+  border: 1px solid #000000;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.illutration-pic {
+  width: 336px;
+  border-radius: 10px;
+}
+
+.blog-description-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+.status-tag {
+  background-color: var(--yellow);
+  width: 82px;
+  height: 29px;
+  padding: 4px 12px;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 4px;
+  line-height: 150%;
+  word-spacing: 8px;
+  margin-bottom: 0;
+}
+
+.publish-date {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%; 
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 150%;
+  margin: 0;
+  margin-top: 12px;
+  margin-bottom: 0;
+  letter-spacing: 0%;
+  transition: all 0.15s;
+}
+
+.title:hover,
+.title:active,
+.title:focus,
+.title:invalid {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  color: var(--light-gray);
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.author-container {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.author-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+}
+
+.author-name {
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%;
+  margin-left: 12px;
+}
+
+@media (max-width: 375px) {
+  /* For mobile: */
+  .card {
+    max-width: 327px;
+  }
+  .illutration-pic {
+    max-width: 279px;
+  }
+  .status-tag {
+    width: 73px;
+    height: 26px;
+    font-size: 12px;
+  }
+  .publish-date {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 14px;
+  }
+}
