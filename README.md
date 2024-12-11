@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Codebase](https://your-solution-url.com)
-- Live Site URL: [Blog-Preview-Card](https://your-live-site-url.com)
+- Solution URL: [Codebase](https://github.com/DeepHiwase/Blog-Preview-Card)
+- Live Site URL: [Blog-Preview-Card](https://deephiwase.github.io/Blog-Preview-Card/)
 
 ## My process
 
@@ -34,4 +34,5 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Add Mobile Responsiveness
 
